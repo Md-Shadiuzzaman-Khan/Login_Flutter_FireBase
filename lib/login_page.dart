@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
@@ -55,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
-                    border: Border.all(color: Colors.white),
+                    border: Border.all(color: Colors.deepPurple),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Padding(
@@ -79,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
-                    border: Border.all(color: Colors.white),
+                    border: Border.all(color: Colors.deepPurple),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Padding(
